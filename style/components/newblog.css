@@ -1,0 +1,107 @@
+.newblog-main {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../../img/index/woman-traveler-with-backpack-walking-yasaka-pagoda-sannen-zaka-street-kyoto-japan\ 1.png');
+   -webkit-background-size: cover;
+   -moz-background-size:  cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.main-inner {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.newblog-title-d {
+   text-align: center;
+   font-size: 60px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px yellow;
+  color: #fff;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+}
+
+.newblog-title {
+   padding: 20px 350px 20px 20px;
+   outline: none;
+   border: none;
+   border-radius: 12px;
+   background-color: #224957;
+   font-size: 18px;
+   font-weight: 700;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+   margin-left: 450px;
+   margin-top: 50px;
+}
+
+.newblog-title::placeholder {
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+
+.newblog-select {
+      box-sizing: border-box;
+      margin-left: 225px;
+      margin-top: 20px;
+}
+
+
+
+.newblog-select select {
+   box-sizing: border-box;
+   padding: 18px 400px 18px 30px;
+   background: #224957;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: 300;
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   /* -webkit-appearance: none; */
+   /* appearance: none; */
+}
+
+.newblog-select select:focus {
+   outline: none;
+}
+
+.newblog-fileinput {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 450px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.newblog-textarea {
+   background-color: #224957;
+   font-size: 20px;
+   font-weight: 500;
+   color: #fff;
+   margin-left: 450px;
+}
+
+.newblog-textarea::placeholder {
+   font-size: 20px;
+   font-weight: 500;
+   color: #fff;
+}
+
+.newblog-save-button {
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   font-family: 'Inter', sans-serif;
+   background-color: rgba(32, 223, 127, 1);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   padding: 13px 80px;
+   margin-top: 60px;
+   margin-left: 650px;
+}

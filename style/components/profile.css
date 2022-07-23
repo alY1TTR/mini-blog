@@ -1,0 +1,144 @@
+body {
+   background-color: bisque;
+}
+
+
+.profile-article {
+   margin: 100px 120px 0px;
+}
+
+.person-info {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.person-info-info {
+   padding: 50px 50px 40px 40px;
+}
+
+.person-info-info h2 {
+   font-size: 60px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px black;
+  color: black;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+}
+
+.person-info-info p {
+   font-size: 20px;
+   font-family: 500;
+   color: black;
+   font-family: 'Inter', sans-serif;
+   line-height: 35px;
+   margin-top: 40px;
+   margin-bottom: 80px;
+}
+
+.move-out {
+   font-size: 20px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px black;
+  color: white;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   padding: 20px;
+   text-decoration: none;
+   background-color: red;
+   border-radius: 40px;
+}
+
+.profile-des {
+   padding: 100px 120px 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.profile-des h3 {
+   font-size: 50px;
+   font-weight: bold;
+   color: black;
+   font-family: 'Inter', sans-serif;
+}
+
+.profile-des a {
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   padding: 20px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+}
+
+.move-main {
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   padding: 20px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+   margin-left: 50px;
+}
+
+.profile-n-blog {
+   font-size: 80px;
+   font-weight: 600;
+   color: red;
+   font-family: 'Inter', sans-serif;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.blog-delete {
+   margin-top: 100px;
+   padding: 0 140px;
+   font-size: 17px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px black;
+  color: white;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   padding: 17px;
+   text-decoration: none;
+   background-color: red;
+   border-radius: 40px;
+}
+
+.delete-btn {
+   margin-top: 50px;
+   margin-left: 1250px;
+}
+
+.edit-button {
+   margin-top: 50px;
+   margin-left: 1200px;
+}
+
+.edit {
+   margin-top: 100px;
+   padding: 0 140px;
+   font-size: 17px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px black;
+  color: white;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   padding: 17px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+}

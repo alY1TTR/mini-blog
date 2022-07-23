@@ -1,0 +1,74 @@
+.login-body {
+   background-color: #03343E;
+   position: relative;
+}
+
+.login-logo {
+   position: absolute;
+   top: -100px;
+   left: 150px;
+}
+
+.login_main>h1 {
+   text-align: center;
+   margin-top: 200px;
+   font-size: 80px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+.login_form {
+   margin-left: 620px;
+   margin-top: 40px;
+}
+
+.login_form input:first-child, .login_form input:last-child, .login_form a, .login_form button {
+   display: block;
+}
+
+.login_form input:first-child, .login_form input:nth-child(2) {
+   padding: 13px 93px 13px 20px;
+   outline: none;
+   border: none;
+   border-radius: 12px;
+   background-color: #224957;
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+.login_form input:first-child::placeholder, .login_form input:nth-child(2)::placeholder{
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+.login-pass-ent {
+   margin-top: 32px;
+}
+
+.login_form button, .register_btn_form button {
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   font-family: 'Inter', sans-serif;
+   background-color: rgba(32, 223, 127, 1);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin-top: 24px;
+}
+
+.log-b {
+   padding: 13px 140px;
+}
+
+.register-btn {
+   padding: 13px 120px 13px 140px;
+}
+
+.register_btn_form {
+   margin-left: 620px;
+}

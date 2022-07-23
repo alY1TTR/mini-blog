@@ -1,0 +1,81 @@
+.register-body {
+   background-color: #03343E;
+   position: relative;
+}  
+
+.register-logo {
+   position: absolute;
+   top: 50px;
+   left: 100px;
+}
+
+.login-btn>fieldset>button {
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   font-family: 'Inter', sans-serif;
+   background-color: rgba(32, 223, 127, 1);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   padding: 13px 50px;
+   margin-left: 1300px;
+   margin-top: 50px;
+}
+
+.register-main>h1 {
+   text-align: center;
+   font-size: 80px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+   margin-top: 70px;
+}
+
+.registering-form {
+   margin-left: 600px;
+}
+
+.registering-form input, .registering-form button {
+   display: block;
+}
+
+.registering-form input {
+   padding: 13px 93px 13px 20px;
+   outline: none;
+   border: none;
+   border-radius: 12px;
+   background-color: #224957;
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+
+.registering-form input::placeholder {
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+.fieldset {
+   margin-top: 32px;
+}
+
+
+
+.registering-form button {
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   font-family: 'Inter', sans-serif;
+   background-color: rgba(32, 223, 127, 1);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin-top: 24px;
+   padding: 13px 80px;
+   margin-bottom: 100px;
+}
+
+

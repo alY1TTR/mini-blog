@@ -1,0 +1,107 @@
+.comment-bod {
+   background-color: bisque;
+   padding: 0 120px;
+}
+
+.com-author img {
+   width: 90px;
+   height: 90px;
+}
+
+.com-num h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+   margin-top: 80px;
+}
+
+.com-author {
+   display: flex;
+   align-items: center;
+   margin-top: 90px;
+}
+
+.com-author h3 {
+   font-size: 30px;
+   color: #000;
+   font-weight: 700;
+   font-family: 'Inter', sans-serif;
+   margin-left: 30px;
+}
+
+.com-desc p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+   line-height: 15px;
+   margin-top: 40px;
+}
+
+.add-com-textarea {
+   margin-top: 70px;
+   font-size: 18px;
+   font-weight: 400;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+   line-height: 15px;
+}
+
+.add-com-textarea::placeholder {
+   font-size: 18px;
+   font-weight: 400;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+}
+
+.com-send-btn button {
+   margin-top: 40px;
+   padding: 0 140px;
+   font-size: 17px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px black;
+  color: white;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   padding: 17px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+}
+
+.login-warning {
+   margin-top: 50px;
+   background-color: chartreuse;
+   width: 800px;
+}
+
+.login-warning p {
+   font-size: 18px;
+   padding: 30px 50px 30px 20px;
+   font-weight: 600;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+}
+
+.login-warning a {
+   text-decoration: none;
+   color: red;
+}
+
+.goback {
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   padding: 20px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+}
+
+.goback-from-com {
+   margin-top: 60px;
+}

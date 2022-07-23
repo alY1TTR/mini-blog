@@ -1,0 +1,3 @@
+# Small blog 
+
+Small blog written in html, css, js, mysql, php. You can add new blogs to the main page, edit them and delete them. Moreover, you can only see your own blogs on your profile page. You also have the ability to add a comment to the desired blog and you can also go to the profiles of other authors and see their blogs. In addition, there is a keyword search, you can enter the desired letters associated with the author's nickname or words from the article, and the page will give you a suitable description of the article.

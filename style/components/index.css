@@ -1,0 +1,338 @@
+.header-main {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../../img/blogs/woman-traveler-with-backpack-walking-yasaka-pagoda-sannen-zaka-street-kyoto-japan\ 1.png');
+   -webkit-background-size: cover;
+   -moz-background-size:  cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.index_header {
+   align-items: center;
+   padding: 50px 200px 0 250px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.index-search>input {
+   padding: 13px 120px 13px 35px;
+   background-color: #fff;
+   border: none;
+   outline: none;
+   border-radius: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+}
+
+.index-search>input::placeholder {
+   font-size: 18px;
+   font-weight: bold;
+   color: rgba(134, 131, 131, 1);
+   font-family: 'Inter', sans-serif;
+}
+
+.index-search>button {
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   font-family: 'Inter', sans-serif;
+   background-color: blue;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   padding: 10px 30px;
+   border: none;
+}
+
+.prof-img>a>img {
+   width: 90px;
+   height: 90px;
+}
+
+.index-main {
+   margin-top: 250px;
+   padding: 0 300px;
+   padding-bottom: 300px;
+}
+
+.index-main>h1 {
+   text-align: center;
+   font-size: 75px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px yellow;
+  color: #fff;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+}
+
+.index-main>p {
+   font-size: 15px;
+   font-weight: 400;
+   text-shadow:
+    1px 1px 0 orange,
+    1px -1px 0 orange,
+    -1px 1px 0 orange,
+    -1px -1px 0 orange;
+  color: white;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   margin-top: 30px;
+   text-align: center;
+   line-height: 30px;
+}
+
+.index-categories {
+   margin-top: 100px;
+   padding: 0 200px;
+}
+
+.index-categories>h2 {
+   font-size: 36px;
+   font-weight: bold;
+   color: rgba(20, 20, 20, 1);
+   font-family: 'Inter', sans-serif;
+   text-align: center;
+}
+
+.category-slides {
+   margin-top: 50px;
+}
+
+.category-slides-item {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.cat1 {
+   padding: 100px;
+   background-image: url('../../img/blogs/cat1.png');
+}
+
+.cat2 {
+   background-image: url('../../img/index/cat2.png');
+}
+
+.cat3 {
+   background-image: url('../../img/index/cat3.png');
+}
+
+.cat4 {
+   background-image: url('../../img/index/cat6.png');
+}
+
+.cat5 {
+   background-image: url('../../img/index/cat5.png');
+}
+
+.cat6 {
+   background-image: url('../../img/index/cat6.png');
+}
+
+.cat7 {
+   background-image: url('../../img/index/cat3.png');
+}
+
+.cat8 {
+   background-image: url('../../img/index/cat5.png');
+}
+
+
+.category-slides-item>a {
+   font-size: 20px;
+   font-weight: bold;
+   color: rgb(0, 255, 0);
+   font-family: 'Inter', sans-serif;
+   padding: 200px 40px 200px 0px;
+   text-align: start;
+   line-height: 27px;
+   text-decoration: none;
+}
+
+
+.index-blogs-title {
+   margin-top: 200px;
+}
+
+.index-blogs-title>h2 {
+   font-size: 90px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 red,
+    -1px -1px 0 black;
+   color: white;
+   transition: all 1s;
+   text-align: center;
+   font-family: 'Inter', sans-serif;
+}
+
+.index-blogs-title>p {
+   font-size: 28px;
+   font-weight: bold;
+   font-family: 'Inter', sans-serif;
+   margin-top: 40px;
+   text-align: center;
+   text-shadow:
+    -1px -1px #000,
+    0 1px 0 red;
+  color: #222;
+  transition: all 1s;
+  margin-bottom: 100px;
+}
+
+
+.index-blogs-articles {
+   background-color: rgb(240, 240, 240);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 100px 300px 100px;
+}
+
+.index-blogs-articles-item {
+   background-color: white;
+   margin-top: 40px;
+   border-radius: 20px;
+}
+
+.index-blogs-articles-item-inner {
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 25px;
+}
+
+.time-ago {
+   display: flex;
+   align-items: center;
+}
+
+.time-ago>img {
+   width: 30px;
+   height: 30px;
+}
+
+.time-ago>p {
+   margin-left: 10px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+}
+
+.articles-inner-text {
+   padding-right: 20px;
+}
+
+.articles-inner-text h2 {
+   font-size: 26px;
+   font-weight: bold;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+   line-height: 34px;
+   margin-top: 30px;
+}
+
+.commentss {
+   text-decoration: none;
+}
+
+.article-text {
+   font-size: 18px;
+   font-weight: 500;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+   margin-top: 20px;
+   line-height: 27px;
+}
+
+.article-author {
+   display: flex;
+   margin-top: 30px;
+   align-items: center;
+}
+
+.article-author>img {
+   width: 30px;
+   height: 30px;
+}
+
+.article-author>a {
+   font-size: 18px;
+   margin-left: 15px;
+   font-weight: 700;
+   color: blue;
+   font-family: 'Inter', sans-serif;
+   text-decoration: none;
+}
+
+.article-author>a:hover {
+   color: red;
+   transition-duration: 0.5s;
+}
+
+.article-cat-choice {
+   display: flex;
+   align-items: center;
+   margin-left: 100px;
+}
+
+.article-cat-choice>img {
+   width: 30px;
+   height: 30px;
+}
+
+.article-cat-choice>p {
+   margin-left: 10px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #000;
+   font-family: 'Inter', sans-serif;
+}
+
+.article-inner-img img {
+   width: 260px;
+   height: 260px;
+}
+
+.button-group {
+   align-items: center;
+}
+
+.button-group a {
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   padding: 10px;
+   text-decoration: none;
+   background-color: blue;
+   border-radius: 40px;
+}
+
+.button-group a:nth-child(2) {
+   margin-left: 25px;
+}
+
+.cat-no-blog {
+   text-align: center;
+   font-size: 67px;
+   font-weight: bold;
+   text-shadow:
+    1px 1px red,
+    2px 2px white;
+  color: black;
+  transition: all 1s;
+   font-family: 'Inter', sans-serif;
+   margin-top: 50px;
+}
+
+.www {
+   color: red;
+   margin-left: 300px;
+   font-size: 30px;
+   font-weight: bold;
+}
